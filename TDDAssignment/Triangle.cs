@@ -67,6 +67,11 @@ namespace TDDAssignment
                     return -2;
                 }
 
+                if((angleA + angleB) >= 180)
+                {
+                    return -3;
+                }
+
 
                 double angleC = 180 - (angleA + angleB); 
 
