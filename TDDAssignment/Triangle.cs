@@ -54,5 +54,10 @@ namespace TDDAssignment
                 return -1; 
             }
         }
+
+        public static double GetThirdAngle(string Angle1, string Angle2)
+        {
+            return 0;
+        }
     }
 }
