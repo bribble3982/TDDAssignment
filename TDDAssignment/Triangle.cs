@@ -62,6 +62,11 @@ namespace TDDAssignment
                 double angleA = Convert.ToDouble(Angle1);
                 double angleB = Convert.ToDouble(Angle2);
 
+                if (angleA <= 0 || angleB <= 0)
+                {
+                    return -2;
+                }
+
 
                 double angleC = 180 - (angleA + angleB);
 
