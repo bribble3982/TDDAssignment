@@ -12,15 +12,15 @@ namespace TDDAssignment
         {
             try
             {
-                double sideLength1 = Convert.ToDouble(Length1);
-                double sideLength2 = Convert.ToDouble(Length2);
+                double sideA = Convert.ToDouble(Length1);
+                double sideB = Convert.ToDouble(Length2);
 
-                if(sideLength1 <= 0 || sideLength2 <= 0)
+                if(sideA <= 0 || sideB <= 0)
                 {
                     return -2;
                 }
 
-                double hypotenuse = Math.Sqrt((sideLength1 * sideLength1) + (sideLength2 * sideLength2));
+                double hypotenuse = Math.Sqrt((sideA * sideA) + (sideB * sideB));
 
                 return hypotenuse; 
             }
@@ -34,7 +34,12 @@ namespace TDDAssignment
 
         public static double GetArea(string Length1, string Length2)
         {
-            return 0;
+            double sideA = Convert.ToDouble(Length1);
+            double sideB = Convert.ToDouble(Length2);
+
+            double area = sideA * sideB * 0.5;
+
+            return area;
         }
     }
 }
