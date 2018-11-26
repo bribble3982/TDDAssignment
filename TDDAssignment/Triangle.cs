@@ -57,7 +57,14 @@ namespace TDDAssignment
 
         public static double GetThirdAngle(string Angle1, string Angle2)
         {
-            return 0;
+             double angleA = Convert.ToDouble(Angle1);
+             double angleB = Convert.ToDouble(Angle2);
+
+
+             double angleC = 180 - (angleA + angleB);
+
+             return angleC;
+
         }
     }
 }
