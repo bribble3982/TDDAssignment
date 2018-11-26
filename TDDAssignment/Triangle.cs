@@ -39,6 +39,11 @@ namespace TDDAssignment
                 double sideA = Convert.ToDouble(Length1);
                 double sideB = Convert.ToDouble(Length2);
 
+                if (sideA <= 0 || sideB <= 0)
+                {
+                    return -2;
+                }
+
                 double area = sideA * sideB * 0.5;
 
                 return area;
