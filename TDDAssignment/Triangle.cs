@@ -17,7 +17,7 @@ namespace TDDAssignment
 
                 double hypotenuse = Math.Sqrt((sideLength1 * sideLength1) + (sideLength2 * sideLength2));
 
-                return hypotenuse;
+                return hypotenuse; 
             }
 
             catch(Exception)
