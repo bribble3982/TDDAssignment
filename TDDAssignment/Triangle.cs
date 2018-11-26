@@ -31,5 +31,10 @@ namespace TDDAssignment
             }
  
         }
+
+        public static double GetArea(string Length1, string Length2)
+        {
+            return 0;
+        }
     }
 }
