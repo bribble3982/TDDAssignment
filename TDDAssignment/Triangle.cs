@@ -15,6 +15,11 @@ namespace TDDAssignment
                 double sideLength1 = Convert.ToDouble(Length1);
                 double sideLength2 = Convert.ToDouble(Length2);
 
+                if(sideLength1 <= 0 || sideLength2 <= 0)
+                {
+                    return -2;
+                }
+
                 double hypotenuse = Math.Sqrt((sideLength1 * sideLength1) + (sideLength2 * sideLength2));
 
                 return hypotenuse; 
