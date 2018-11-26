@@ -68,7 +68,7 @@ namespace TDDAssignment
                 }
 
 
-                double angleC = 180 - (angleA + angleB);
+                double angleC = 180 - (angleA + angleB); 
 
                 return angleC;
             }
