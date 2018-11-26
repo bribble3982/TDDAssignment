@@ -10,7 +10,7 @@ namespace TDDAssignment
     {
         public static double GetHypotenuse(string Length1, string Length2)
         {
-            return 0;
+            return 0; 
         }
     }
 }
